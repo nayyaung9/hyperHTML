@@ -1,0 +1,16 @@
+{
+  "name": "hyperHTML",
+  "version": "1",
+  "description": "A simple way to create custom Web Components",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "Nay Yaung Lin Lakk",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js http://localhost:8080",
+    "test": "node src/test.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
