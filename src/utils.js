@@ -6,7 +6,6 @@ export function camelToDash(str) {
     result = str.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
     camelToDashMap.set(str, result);
   }
-  console.log("result", result);
   return result;
 }
 
